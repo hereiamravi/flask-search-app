@@ -16,6 +16,7 @@ COPY . .
 # set the environment variable for flask app
 ENV FLASK_APP=app.py
 ENV AUTH_KEY=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
+ENV PYTHONUNBUFFERED=1
 
 # expose port 5000 for flask app
 EXPOSE 5000
